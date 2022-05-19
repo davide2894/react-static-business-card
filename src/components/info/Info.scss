@@ -1,0 +1,72 @@
+@import '../../shared.scss';
+
+.info {
+    text-align: center;
+
+    &__name {
+        font-size: rem(25px);
+        line-height: 30.26px;
+    }
+
+    &__title {
+        font-size: rem(12.8px);
+        color: #F3BF99;
+        line-height: 15.49px;
+    }
+
+    &__name {
+        margin-bottom: 6.19px;
+        margin-top: 0;
+    }
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 8.81px;
+    }
+
+    &__website {
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        width: 115px;
+        border-radius: 6px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 9px 13px;
+
+        &--email {
+            margin-right: 17px
+        }
+    }
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: calc(1.00rem * .8125);
+        height: calc(1.00rem * .875);
+        display: block;
+        opacity: 1;
+        margin-right: 5px;
+
+        &--email {
+            background-image: url('../../assets/icons/mail.png');
+        }
+
+        &--linkedin {
+            background-image: url('../../assets/icons/linkedin.png');
+        }
+    }
+}

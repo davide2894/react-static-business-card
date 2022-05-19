@@ -1,0 +1,22 @@
+@import '../../shared';
+
+.businessCard {
+    width: rem(317px);
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    margin: rem(44px) auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1B21;
+    color: $white;
+
+    &__child {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__margins {
+        margin-left: rem(31px);   
+        margin-right: rem(39px);    
+    }
+}

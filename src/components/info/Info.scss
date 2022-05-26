@@ -5,18 +5,16 @@
 
     &__name {
         font-size: rem(25px);
+        font-weight: $font-weight-bold;
         line-height: 30.26px;
+        margin-top: 21px;
+        margin-bottom: 6.19px;
     }
 
     &__title {
         font-size: rem(12.8px);
-        color: #F3BF99;
+        color: $skin;
         line-height: 15.49px;
-    }
-
-    &__name {
-        margin-bottom: 6.19px;
-        margin-top: 0;
     }
 
     &__title {

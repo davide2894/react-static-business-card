@@ -1,15 +1,5 @@
 @use 'sass:math';
 
-
-// COLORS
-$blue-react: #00D8FF;
-$ice: #DEEBF8;
-$white: #FFFFFF;
-$dark-black: #21222A;
-$light-black: #282D35;
-$very-light-black: #33373E;
-
-
 //* Function: rem()
 //* DESCRIPTION: px -> rem conversion
 @function rem($px, $base: 16px) {
@@ -34,3 +24,25 @@ $very-light-black: #33373E;
 .visuallyHidden {
   @include visuallyhidden();
 }
+
+// COLORS
+$white: #FFFFFF;
+$dark-blue: #23252C;
+$very-dark-blue: #1A1B21;
+$skin: #F3BF99;
+$text-gray: #DCDCDC;
+
+
+// FONT
+$font-weight-bold: 700;
+$font-size-small: rem(10px);
+$font-size-medium: rem(16px);
+$font-size-big: rem(25px);
+
+// LINE HEIGHTS
+$line-height-p: 15.36px;
+
+// BREAKPOINT
+$desktop: 1024px;
+
+

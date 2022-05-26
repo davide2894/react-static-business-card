@@ -1,14 +1,17 @@
 @import '../../shared';
 
 .businessCard {
-    width: rem(317px);
     border-radius: 10px;
-    margin: rem(44px) auto;
     display: flex;
     flex-direction: column;
-    background-color: #1A1B21;
+    background-color: $very-dark-blue;
     color: $white;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    @media only screen and (min-width: #{$desktop}) {
+        width: rem(317px);
+        margin: rem(44px) auto;    
+    }
 
     &__child {
         display: flex;
@@ -19,5 +22,17 @@
         margin-left: rem(31px);   
         margin-right: rem(39px);
     
+    }
+
+    &__h3 {
+        margin-bottom: 0;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-bold;
+    }
+
+    &__p {
+        color: $text-gray;
+        font-size: 10.24px;
+        line-height: $line-height-p;
     }
 }
